@@ -18,7 +18,7 @@ const Footer = () => {
                                     alt="Logo"
                                     className="w-14 h-7 sm:w-16 sm:h-8 md:w-20 md:h-10 object-contain absolute left-0"
                                 />
-                                <span className="pl-20">Azenterprisessdnbhd</span>
+                                <span className="pl-20">AZITSERVICESSDNBHD</span>
                             </h2>
                             <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                                 Your go-to freelance partner for reliable, custom IT solutions — from websites and mobile apps to cloud services and support. Helping startups and small businesses grow with smart tech since 2015.
@@ -89,7 +89,7 @@ const Footer = () => {
   {/* Email */}
   <div className="mt-2 flex items-center gap-2 text-orange-400 hover:text-white transition duration-200">
     <FaEnvelope className="hover:text-orange-400 transition" />
-    <span className="text-gray-300 hover:underline">jawaidh82@gmail.com</span>
+    <span className="text-gray-300 hover:underline">azitservicessdmbhd@gmail.com</span>
   </div>
 </div>
                         </div>
@@ -101,10 +101,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-
-
-
-        </>
+</>
     );
 };
 

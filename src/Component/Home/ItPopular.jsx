@@ -57,7 +57,12 @@ const ItPopular = () => {
 const Card = ({ title, image }) => {
   return (
     <div className="relative h-64 rounded-3xl overflow-hidden group">
-      <img className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" src={image} alt={title} />
+      <img
+  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 opacity-70"
+  src={image}
+  alt={title}
+/>
+
       <p className="absolute bottom-4 left-4 text-white text-xl font-semibold drop-shadow">
         {title}
       </p>
