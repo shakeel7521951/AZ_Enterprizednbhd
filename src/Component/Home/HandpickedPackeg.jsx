@@ -43,7 +43,7 @@ const HandpickedPackeg = () => {
         {packages.map((item, index) => (
           <div
             key={index}
-            className="w-[400px] bg-white shadow-lg rounded-[25px] overflow-hidden hover:scale-105 transition-transform duration-300"
+            className="w-[360px] bg-white shadow-lg rounded-[25px] overflow-hidden hover:scale-105 transition-transform duration-300"
           >
             {/* Image with Shine Effect */}
             <div className="shine-effect">
