@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Navbar from './Component/Navbar';
@@ -14,7 +13,7 @@ import Projects from "./Pages/Projects";
 import PageNotFound from './Component/PageNotFound';
 import BlogDetail from './Component/Blog/BlogDetail';
 import ProjectDetail from './Component/Projects/ProjectDetail';
-import { FaWhatsapp } from "react-icons/fa"; // Import WhatsApp icon
+import { FaWhatsapp } from "react-icons/fa"; 
 
 const MainLayout = () => (
   <div className="lg:mx-auto lg:max-w-[1536px] relative">
@@ -22,9 +21,8 @@ const MainLayout = () => (
     <Outlet />
     <Footer />
 
-    {/* WhatsApp Floating Button */}
     <a
-      href="https://wa.me/601128246982" // Your WhatsApp number
+      href="https://wa.me/601128246982"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed right-5 bottom-5 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300 z-50"

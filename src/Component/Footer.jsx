@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaPhoneAlt, FaEnvelope, FaInstagram, FaTwitter, FaLinkedin, FaFacebook ,FaMapMarkerAlt } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaInstagram, FaTwitter, FaLinkedin, FaFacebook, FaMapMarkerAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
@@ -49,49 +48,55 @@ const Footer = () => {
                             <div>
                                 <h3 className="text-lg font-semibold mb-5">Follow Us</h3>
                                 <ul className="space-y-3 text-gray-300">
-                                    <li className="flex items-center gap-3 group transition hover:scale-105 cursor-pointer">
-                                        <FaInstagram className="text-gray-300 group-hover:text-pink-500 transition duration-200" />
-                                        Instagram
-                                    </li>
+                                    <Link to="https://www.instagram.com/azenterprisessdnbhd?igsh=dDg2cHYyODhmenBv" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                                        <li className="flex items-center gap-3 group transition hover:scale-105 cursor-pointer">
+                                            <FaInstagram className="text-gray-300 group-hover:text-pink-500 transition duration-200" />
+                                            Instagram
+                                        </li>
+                                    </Link>
                                     <li className="flex items-center gap-2 group transition hover:scale-105 cursor-pointer">
                                         <FaTwitter className="text-gray-300 group-hover:text-sky-400 transition duration-200" />
                                         Twitter
                                     </li>
+                                    <Link to="http://www.linkedin.com/in/hussain-jawaid-438a4632a" target="_blank" rel="noopener noreferrer">
                                     <li className="flex items-center gap-2 group transition hover:scale-105 cursor-pointer">
                                         <FaLinkedin className="text-gray-300 group-hover:text-blue-600 transition duration-200" />
                                         LinkedIn
                                     </li>
-                                    <li className="flex items-center gap-2 group transition hover:scale-105 cursor-pointer">
-                                        <FaFacebook className="text-gray-300 group-hover:text-blue-500 transition duration-200" />
+                                    </Link>
+                                    <Link to="#" target="_blank" rel="noopener noreferrer">
+                                    <li className="flex items-center gap-2 mt-4 group transition hover:scale-105 cursor-pointer">
+                                        <FaFacebook className="text-gray-300  group-hover:text-blue-500 transition duration-200" />
                                         Facebook
                                     </li>
+                                    </Link>
                                 </ul>
                             </div>
 
                             {/* Contact */}
-                           <div>
-  <h3 className="text-lg font-semibold mb-5">Contact</h3>
+                            <div>
+                                <h3 className="text-lg font-semibold mb-5">Contact</h3>
 
-  {/* Address */}
-  <div className="mt-3 flex items-center gap-2 text-orange-400 hover:text-white transition duration-200">
-    <FaMapMarkerAlt className="hover:text-orange-400 transition sm:-mt-5" />
-    <span className="text-gray-300 hover:underline">
-      Tiara Ampang, Selangor Kuala Lumpur 
-    </span>
-  </div>
+                                {/* Address */}
+                                <div className="mt-3 flex items-center gap-2 text-orange-400 hover:text-white transition duration-200">
+                                    <FaMapMarkerAlt className="hover:text-orange-400 transition sm:-mt-5" />
+                                    <span className="text-gray-300 hover:underline">
+                                        Tiara Ampang, Selangor Kuala Lumpur
+                                    </span>
+                                </div>
 
-  {/* Phone */}
-  <div className="mt-3 flex items-center gap-2 text-orange-400 hover:text-white transition duration-200">
-    <FaPhoneAlt className="hover:text-orange-400 transition" />
-    <span className="text-gray-300 hover:underline">+601128246982</span>
-  </div>
+                                {/* Phone */}
+                                <div className="mt-3 flex items-center gap-2 text-orange-400 hover:text-white transition duration-200">
+                                    <FaPhoneAlt className="hover:text-orange-400 transition" />
+                                    <span className="text-gray-300 hover:underline">+601128246982</span>
+                                </div>
 
-  {/* Email */}
-  <div className="mt-2 flex items-center gap-2 text-orange-400 hover:text-white transition duration-200">
-    <FaEnvelope className="hover:text-orange-400 transition" />
-    <span className="text-gray-300 hover:underline">azitservicessdmbhd@gmail.com</span>
-  </div>
-</div>
+                                {/* Email */}
+                                <div className="mt-2 flex items-center gap-2 text-orange-400 hover:text-white transition duration-200">
+                                    <FaEnvelope className="hover:text-orange-400 transition" />
+                                    <span className="text-gray-300 hover:underline">azitservicessdmbhd@gmail.com</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -101,7 +106,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-</>
+        </>
     );
 };
 
