@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="relative md:h-[100vh] h-[50vh] max-h-[80vh] flex justify-center items-center">
+    <div className="relative flex justify-center items-center">
       <img
         src="/about/go.jpg"
         alt="Visa Consultancy & Travel Solutions"
