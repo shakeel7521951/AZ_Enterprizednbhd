@@ -18,7 +18,7 @@ const cardData = [
 const ItPopular = () => {
   const navigate = useNavigate();
   return (
-    <div className="w-full p-10 max-md:px-1 min-h-screen flex flex-col gap-10 text-white bg-[#0c1c26] py-15 mx-md:pt-30">
+    <div className="w-full p-10 max-md:px-1 my-10 flex flex-col gap-10 text-white bg-[#0c1c26] py-15 mx-md:pt-30">
       {/* Header Section */}
       <div className="flex flex-col lg:flex-row gap-10">
         <div className="flex flex-col gap-4 p-5 lg:w-1/2">
